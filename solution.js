@@ -24,7 +24,7 @@ for(let i = 0; i<arr.length; i++) {
     else if(temp[arr[i]]>=1) temp[arr[i]] = temp[arr[i]]+1;
 };
 
-let result = [];
+let result = [-1];
 let rIndex = 0;
 
 for(let j = 0; j<temp.length;j++){
